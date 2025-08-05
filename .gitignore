@@ -1,0 +1,12 @@
+# Dependências
+/frontend/node_modules
+/backend/node_modules
+
+# Arquivos de ambiente
+.env
+frontend/.env
+backend/.env
+
+# Cache e build
+/frontend/dist
+/frontend/.vite

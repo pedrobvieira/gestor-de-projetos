@@ -1,0 +1,113 @@
+/* Estilo geral para o container do Dashboard */
+.dashboardContainer {
+  max-width: 900px;
+  margin: 2rem auto; /* Centraliza o container na página */
+  padding: 1rem;
+  font-family: sans-serif;
+  color: #333;
+}
+
+/* Container para o formulário de criação de tarefas */
+.formContainer {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.formContainer h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* Estilo para os inputs e textarea */
+.input, .textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Garante que o padding não aumente a largura */
+}
+
+/* Container para a lista de tarefas */
+.listContainer {
+  margin-top: 2rem;
+}
+
+/* Estilo para cada card de tarefa */
+.taskCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.taskCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.taskHeader h3 {
+  margin: 0;
+}
+
+.taskStatus {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+.taskActions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 10px; /* Espaço entre os botões */
+}
+
+/* Estilos para os botões */
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.createButton {
+  background-color: #007bff;
+}
+.createButton:hover {
+  background-color: #0056b3;
+}
+
+.updateButton {
+  background-color: #28a745;
+}
+.updateButton:hover {
+  background-color: #1e7e34;
+}
+
+.deleteButton {
+  background-color: transparent;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+}
+.deleteButton:hover {
+  background-color: #dc3545;
+  color: white;
+}
